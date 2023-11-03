@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parallax Scrolling Website</title>
+<link rel="stylesheet" type="text/css" href="lay.css">*
+</head>
+<body>
+<header>
+<a href="#" class="logo">Web development</a>
+<ul class="navigation">
+<li><a href="#"class="active">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Topics</a></li>
+<li><a href="#">Developers</a></li>
+</ul>
+</header>
+<section class ="Parallax"> 
+    <h2 id="text">CPE 4A</h2>
+    <img src="monutain_01.png" id = "m1">
+    <img src="trees_02.png" id = "t2">
+    <img src="monutain_02.png" id = "m2">
+    <img src="trees_01.png" id = "t1">
+    <img src="man.png" id = "mam">
+    <img src="plants.png" id = "plants">
+</section>
+<section class = "sec">
+    <h1> Web Development</h1>
+    <h2>
+        Web development, also known as website development, refers to the tasks associated with creating, building, and maintaining websites and web applications that run online on a browser. It may, however, also include web design, web programming, and database management.
+        Web development is closely related to the job of designing the features and functionality of apps (web design). The term development is usually reserved for the actual construction of these things (that is to say, the programming of sites).
+    </h2>
+</section>
+<div id="topic">
+    <div class="container">
+        <h1 class="sub-title">Topics</h1>
+        <div class="topics-list">
+            <div>
+                <i class="fa-regular fa-heart"></i>
+                <h2>Database Management System (DBMS)</h2>
+                <p> A database management system (DBMS) is system software for creating and managing databases. A DBMS makes it possible for end users to create, protect, read, update and delete data in a database. 
+                    The most prevalent type of data management platform, the DBMS essentially serves as an interface between databases and users or application programs, ensuring that data is consistently organized and remains easily accessible..</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-pen-ruler"></i>
+                <h2>Web Publishing</h2>
+                <p>The process includes building and uploading websites, updating the associated webpages, and posting content to these webpages online. Web publishing comprises of personal, business, and community websites in addition to e-books and blogs.
+                    The content meant for web publishing can include text, videos, digital images, artwork, and other forms of media.
+                    Publishers must possess a web server, a web publishing software, and an Internet connection to carry out web publishing.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-icons"></i>
+                <h2>Web programming </h2>
+                <p>  involves creating web pages, web applications, and other online content that can be displayed in a web browser. Web programming is accomplished using a variety of programming languages, including HTML, CSS, JavaScript, PHP, Python, Ruby, and Java. </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</body>
+</section>
+<section class = "carou">
+    <h1>DEVELOPERS("click to slide")</h1>
+    <div class="slider-container">
+        <div class="slider-pannel">
+            <div class="slide slide1" data-t="150">
+                <div class="inner" data-i="-50"></div>
+            </div>
+
+            <div class="slide slide2 active" data-t="-100">
+                <div class="inner" data-i="-50"></div>
+            </div>
+
+            <div class="slide slide3" data-t="-200">
+                <div class="inner" data-i="-50"></div>
+            </div>
+            <div class="slide slide4" data-t="-200">
+                <div class="inner" data-i="-50"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class = "mod">
+    <h2> The Beginner's Guide to Website Development</h2>
+    <h1>Register now</h1>
+    <h2>Why is web development important?</h2>
+    <p>
+        The Internet isn’t going anywhere. In fact, it’s become a portal and primary method of research, connection, education, and entertainment in the world. As of 2021, there were 4.66 billion global Internet users — more than half the world’s population.
+        
+        Given the rapidly-increasing number of Internet users, it’s no surprise that web development is a rapidly expanding industry. Between now and 2030, the employment of web developers is expected to grow by 13%, much faster than most other technology careers.
+        
+        See why thousands of customers use CMS Hub to build an optimized website that integrates with their HubSpot CRM data and full marketing suite.
+        
+        In the next sections, we’ll cover the differences between web development and programming, the basics of web development, and the answers to some common questions.
+        
+        Web Development vs. Web Programming
+        Web development and web programming sound very similar — and they are. But there’s one very important distinction. 
+        
+        Web development refers to the overall process of creating websites or web applications, including the project’s design, layout, coding, content creation, and functionality. It involves using a combination of programming languages, tools, and frameworks to bring a website or web application to life. It may also encompass project management activities, such as fielding development requests from stakeholders or freelance clients. 
+        
+        Web programming, on the other hand, specifically refers to the coding and scripting of a website, whether the front-end or back-end. It primarily involves writing code to handle data, process user inputs, and generate dynamic content. A web programmer will rarely, if ever, handle a web development project from end-to-end. They may build a certain section of a site or troubleshoot bugs.
+        
+        In general, web development encompasses a broader scope. Web developers need to have a holistic understanding of web design, usability, accessibility, as well as coding and programming skills.</p>
+        <button class="button open-button">Sign up</button>
+
+        <dialog class="modal" id="modal">
+          <h2>Register now</h2>
+          <h2>What you'll gain</h2>
+          <p>Gain an immersive understanding of the practices and processes used by a junior or associate data analyst in their day-to-day job
+
+            Learn key analytical skills (data cleaning, analysis, & visualization) and tools (spreadsheets, SQL, R programming, Tableau) 
+            
+            Understand how to clean and organize data for analysis, and complete analysis and calculations using spreadsheets, SQL and R programming</p>
+          <button class="button close-button">back</button>
+          <form class="form" method="dialog">
+            <label>Your name <input type="text"></label>
+            <label>Your email <input type="email"></label>
+            <button class="button" type="submit">submit form</button>
+          </form>
+        
+        </dialog>
+        
+</dialog>
+</section>
+
+<script src="main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
+
+
+<script>
+    gsap.from("#m1",{
+        scrollTrigger : {
+            scrub: true
+        },
+        y:100,
+    })
+    gsap.from("#m2",{
+        scrollTrigger : {
+            scrub: true
+        },
+        y:200,
+    })
+    gsap.from("#t2",{
+        scrollTrigger : {
+            scrub: true
+        },
+        x: -50,
+    })
+    gsap.from("#t1",{
+        scrollTrigger : {
+            scrub: true
+        },
+        x: 50,
+    })
+    gsap.from("#mam",{
+        scrollTrigger : {
+            scrub: true
+        },
+        x: -300,
+    })
+    gsap.from("#plants",{
+        scrollTrigger : {
+            scrub: true
+        },
+        x: -100,
+    })
+    gsap.from("#text",{
+        scrollTrigger : {
+            scrub: true
+        },
+        x: 800,
+    })
+</script>
+</body>
+</html>
